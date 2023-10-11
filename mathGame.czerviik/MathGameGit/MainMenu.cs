@@ -78,7 +78,7 @@ Q - Quit");
             string input = Console.ReadLine();
             if (int.TryParse(input, out tempDifficulty))
             {
-                if (tempDifficulty < 4 && tempDifficulty > 1)
+                if (tempDifficulty < 4 && tempDifficulty > 0)
                 {
                     Difficulty = tempDifficulty;
                     isValidInput = true;
